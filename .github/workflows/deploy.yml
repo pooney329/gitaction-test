@@ -14,15 +14,9 @@ jobs:
         run: echo "Hello master2 !!!!"
 
       - name: HI HELLO22
-        run: echo "Hello master2222 !!!!"
-
-  my-job-2:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: HI HELLO
-        run: echo "Hello master2 !!!!"
-
-      - name: HI HELLO22
-        run: echo "Hello master2222 !!!!"
+        run: | 
+          echo "Hello master2222 !!!!"
+          echo "hhhhhhhhhhh11"
+          
+        
 
