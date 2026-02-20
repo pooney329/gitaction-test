@@ -12,3 +12,6 @@ jobs:
     steps:
       - name: HI HELLO
         run: echo "Hello master2 !!!!"
+
+      - name: HI HELLO22
+        run: echo "Hello master2222 !!!!"
