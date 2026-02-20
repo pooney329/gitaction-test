@@ -17,6 +17,11 @@ jobs:
         run: | 
           echo $GITHUB_SHA
           echo $GITHUB_REPOSITORY
+
+      - name: none display
+        run: |
+          echo ${{ secrets.MY_NAME }}
+        
           
         
 
