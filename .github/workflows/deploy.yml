@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: HI HELLO
-        run: echo "Hello master2 !!!!"
+      - name: HI HELLO882222222 33
+        run: echo "Hello master2222 !!!!"
 
       - name: HI HELLO2
         run: | 
