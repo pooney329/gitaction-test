@@ -3,7 +3,7 @@ name: Github Actions
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   my-job:
@@ -11,4 +11,4 @@ jobs:
 
     steps:
       - name: HI HELLO
-        run: echo "Hello !!!!"
+        run: echo "Hello master !!!!"
