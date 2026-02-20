@@ -6,9 +6,22 @@ on:
       - master
 
 jobs:
-  my-job:
+  my-job-1:
     runs-on: ubuntu-latest
 
     steps:
       - name: HI HELLO
-        run: echo "Hello master !!!!"
+        run: echo "Hello master2 !!!!"
+
+      - name: HI HELLO2
+        run: | 
+          echo $GITHUB_SHA
+          echo $GITHUB_REPOSITORY
+
+      - name: none display
+        run: |
+          echo ${{ secrets.MY_NAME }}
+        
+          
+        
+
