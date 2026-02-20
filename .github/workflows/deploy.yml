@@ -13,10 +13,10 @@ jobs:
       - name: HI HELLO
         run: echo "Hello master2 !!!!"
 
-      - name: HI HELLO22
+      - name: HI HELLO2
         run: | 
-          echo "Hello master2222 !!!!"
-          echo "hhhhhhhhhhh11"
+          echo $GITHUB_SHA
+          echo $GITHUB_REPOSITORY
           
         
 
